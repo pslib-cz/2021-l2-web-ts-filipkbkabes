@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+    .title__item {
+        padding: 3em;
+    } 
+ 
+    .section__content--scroll {
+        overflow-x: hidden;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+    }
+ 
+    .div__item {
+        flex-basis: 45vw;
+    }
+ 
+ 
+    .bestof{
+        margin: 0;
+        display: flex;
+        gap: 10px;
+    }
+ 
+ 
+    .bestof > .button-img{
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 60vw;
+    }
+ 
+    .caption__title {
+        font-size: 24px;
+    }
+ 
+ 
+    .section__content--genres{
+        justify-content: center;
+    }
+    .genres {
+        margin: 0;
+        flex-basis: 40vw;
+    }
+ 
+    .gallery {
+     flex-basis: 30vw;
+    }
+ 
+ 
+ }
+ 

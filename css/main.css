@@ -1,0 +1,127 @@
+:root{
+    --bc:#151515 ;
+    --bc-lghtr: #1F1E1E ;
+    --txt: #FFFFFF;
+}
+
+
+
+html {
+    font-family: 'Comfortaa', cursive;
+    background-color: var(--bc);
+    color: var(--txt);
+}
+
+.navbar {
+    background-color: var(--bc-lghtr);
+    height: 3em;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bc-lghtr);
+}
+
+.nav__item {
+    text-align: center;
+    list-style: none;
+}
+
+.button {
+    text-decoration: none;
+    color: var(--txt);
+    display: block;
+    padding: 1em;
+}
+
+.title {
+    text-align: center;
+}
+
+.title__item {
+    font-size: 36px;
+    padding: 1.5em;
+}
+
+.section{
+    text-align: center;
+    padding: 3em 1em;
+}
+.section__title {
+margin: 0 auto;
+padding: 1em;
+}
+
+.section__content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    gap: 10px;
+}
+
+.section__content--scroll {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+
+.button-img {
+    display: block;
+
+        
+}
+
+.div__item {
+    margin: 0;
+
+    flex-shrink: 0;
+    flex-basis: 50vw;
+}
+
+.button-img > * {
+    width: 100%;
+    height: 100%;
+    display: block;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+}
+
+.scene__title {
+    padding: 1em;
+}
+
+
+.section__content--bestof{
+    display: block;
+}
+
+.bestof {
+    flex-basis: 80vw;
+    margin: 0 auto;
+    background-color: var(--bc-lghtr);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.caption__title {
+    font-weight: bold;
+    display: block;
+    padding: 1em 0;
+}
+
+.genres {
+    flex-basis: 70vw;
+    padding: 1em;
+    background-color: var(--bc-lghtr);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+
+
+.gallery {
+    flex-basis: 40vw;
+    flex-grow: 1;
+}
