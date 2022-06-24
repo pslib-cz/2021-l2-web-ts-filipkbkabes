@@ -28,6 +28,10 @@ html {
     list-style: none;
 }
 
+.nav__item:hover {
+    text-decoration: underline;
+}
+
 .button {
     text-decoration: none;
     color: var(--txt);
@@ -76,7 +80,6 @@ padding: 1em;
 
 .div__item {
     margin: 0;
-
     flex-shrink: 0;
     flex-basis: 50vw;
 }
