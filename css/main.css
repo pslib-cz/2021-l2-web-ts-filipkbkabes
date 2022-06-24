@@ -41,6 +41,7 @@ html {
 
 .title__item {
     font-size: 36px;
+    text-transform: uppercase;
     padding: 1.5em;
 }
 
